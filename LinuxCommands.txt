@@ -1,0 +1,3 @@
+-> ls -lrt  :list files and directory, with time in reverse order.
+-> ls -lR   :Recursive listing of directories and files.
+-> ls -lR | grep -i <name-of-file>  : Search the file recursively in directory

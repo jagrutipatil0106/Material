@@ -1,0 +1,73 @@
+A function is a group of statements that together perform a task.
+Every C++ program has at least one function called main()
+Each function performs a specific task.
+
+A function declaration tells the compiler about a function's name, return type, and parameters.
+A function definition provides the actual body of the function.
+
+
+Function Prototype(Syntax)
+
+return_type function_name( parameter list ) {
+   body of the function
+}
+
+return_type 
+-> A function may/may not return a value. 
+-> The return_type is the data type of the value the function returns.
+-> Can also return void if nothing is returned
+
+parameter list
+-> example void swap(int x, int y);// x and y are parameters
+-> swap(a, b);//a and b are arguments
+->void swap(int &x, int &y) //call by reference
+
+function body
+-> The function body contains a collection of statements that define what the function does.
+
+----------------------------------------------------------------------------------------------------
+
+Function Declarations
+-> A function declaration tells the compiler about a function name and how to call the function.
+
+->The actual body of the function can be defined separately.
+
+
+----------------------------------------------------------------------------------------------------
+Function Arguments
+
+-- https://www.tutorialspoint.com/c	plusplus/cpp_function_call_by_value.htm
+
+Call by value
+->This method copies the actual value of an argument into the formal parameter of the function.
+->In this case, changes made to the parameter inside the function have no effect on the argument.
+->By default, C++ uses call by value to pass arguments
+ 
+call by reference (memory address)
+->The call by reference method of passing arguments to a function copies the reference of an argument into the formal parameter.
+->the reference is used to access the actual argument used in the call.
+
+call by pointer
+->
+->this means that code within a function cannot alter the arguments used to call the function.
+----------------------------------------------------------------------------------------------------
+
+Shirish -> Connect ot DB -> Search Primiary Key -> Calculate Salary -> Return Sary (15)
+JAgruti-> Connect ot DB -> Search Primiary Key -> Calculate Salary -> Return Sary (15)
+Pragati > Connect ot DB -> Search Primiary Key -> Calculate Salary -> Return Sary (15)
+-- 15000
+
+
+
+FIndSalary(Name) {Connect ot DB -> Search Primiary Key -> Calculate Salary -> Return Sary (15)}
+FIndSalary(Shirsh)
+FIndSalary(JAgruti)
+FIndSalary(Pragati)
+1015
+
+
+
+
+
+
+

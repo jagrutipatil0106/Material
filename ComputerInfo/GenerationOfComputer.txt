@@ -1,0 +1,13 @@
+Computer - Generations
+
+5 Compluter Generation (FIsrt to Fifth)
+
+Machine Code(1)-> Assemble Code(2) -> High Level LAnguage (3,4,5)
+
+
+Vacume Tubes (1st Gen)
+Transistor (2nd GEn)
+IC (3rd Gen)
+VLSI (Very Large Scale Integration) -> (4th GEn)
+ULSI (Ultra Large Scale Integration)-> (5th Gen)
+

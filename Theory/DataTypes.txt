@@ -1,0 +1,47 @@
+-- https://www.geeksforgeeks.org/c-data-types/
+
+----------------------------------------------------------------------------------------------------
+
+Primitive Data Types
+
+BOOLEAN 
+
+CHAR
+STRING
+
+INT
+FLOAT
+DOUBLE
+DOUBLE FLOATING POINTs
+LONG 
+
+VOID 
+
+
+
+
+Modifier:
+SHORT
+LONG
+SIGNED
+UNSIGNED
+
+
+----------------------------------------------------------------------------------------------------
+Derived Data Types
+
+Function
+Array
+Pointer
+Reference
+
+
+----------------------------------------------------------------------------------------------------
+
+User Defined Types
+
+Class
+Structure
+Union
+Enumeration
+Typedef defined DataType

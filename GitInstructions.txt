@@ -1,0 +1,8 @@
+git status
+
+git add . [To add everythng which is not commited]
+
+git commit -m "<Message>"
+
+git push origin master
+

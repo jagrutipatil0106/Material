@@ -1,0 +1,32 @@
+search window:    window key + R
+save:             ctrl + s
+command prompt:   enter cmd into search window.
+to change the drive enter D: into command prompt.
+to switch windows: alt+tab
+to switch betwwen subl windows: ctrl +tab.
+to go back directory:  cd ..
+
+subl is a editor tool to edit file.
+comment in subl: ctrl + /
+
+To compile cpp programme: g++ filename   -> if compiled succefully this will generate a.exe file.
+a.exe file is an executable file.
+To execute a programme we need to run its a.exe file. Run it using a.exe command.
+
+To change drive: D:
+To go back a directory: cd ../
+to open explorer window: start .
+to kill the running program:ctrl+c
+
+
+
+
+
+
+
+
+
+
+
+
+
