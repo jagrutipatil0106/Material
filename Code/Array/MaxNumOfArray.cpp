@@ -17,7 +17,7 @@ int main()
 	max=array[0];
 	for(int i=0; i<N; i++){
 		
-		if(max < array[i])
+		if(max > array[i])
 		{
 			max=array[i];
 		}

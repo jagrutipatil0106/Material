@@ -1,4 +1,4 @@
-// Wap Given an array of integers, find the sum of its elements.s
+  // Wap Given an array of integers, find the sum of its elements.s
 
 #include<iostream>
 using namespace std;
