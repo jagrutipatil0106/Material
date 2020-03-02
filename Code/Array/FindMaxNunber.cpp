@@ -9,21 +9,19 @@ int main(){
 	cout<<"Enter an array element"<<endl;
 
 	int array[N];
+	
 
 	for(int i = 0; i < N; i++){
-		int num;
-		cin>>num;
-		array[i]=num;
-	}
-	 int temp = array[0];
+		cin>>array[i];
+			}
+	 int RunnigMax = array[0];
+
 	 for(int i = 0; i < N; i++){
-
-	 	if(temp < array[i]){
-
-	 		temp = array[i];
+	 	if(RunnigMax < array[i]){
+	 		RunnigMax = array[i];
 	 	}
 	  }
-	  cout<<"Maxnumber :"<<temp;
+	  cout<<"Maxnumber :"<<RunnigMax;
 
 
 	return 0;
