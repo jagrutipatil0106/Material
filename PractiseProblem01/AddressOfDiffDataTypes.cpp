@@ -1,20 +1,20 @@
-#include <iostream>
- using namespace std;
 
- int main(){
+
+
+
+
+
+
+
  	
-int *i;
-float *f;
-
- cout<<"Address of i :"<<i<<endl;
- cout<<"address of f is: "<<f<<endl ;
-
-i = f;
-
-cout<<i<<endl;
-
-
  	return 0;
-
-
+ cout<<"address of f is: "<<f<<endl ;
+ cout<<"Address of i :"<<i<<endl;
+ int main(){
+ using namespace std;
  }
+#include <iostream>
+cout<<i<<endl;
+float *f;
+i = f;
+int *i;
