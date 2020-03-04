@@ -1,6 +1,3 @@
-// problemStatement
-// Finding max array and its index.
-
 # include<iostream>
 using namespace std;
 int main(){
@@ -10,6 +7,7 @@ int main(){
 	cin>>N;
 	int array[N];
 	int Index;
+	int Temp;
 
 	cout<<"Enter an array element"<<endl;
 
@@ -27,6 +25,12 @@ int main(){
 	 		Index = i;
 	 	}
 	  }
+
+	  Temp = RunningMax;
+	  RunningMax = array[N-1];
+	  array[N-1] = Temp;
+	  cout<<"maxnuber :"<<RunningMax<<"array last element :"<<array[N-1]<<endl;
+	
 	  cout<<Index<<endl;
 	  cout<<"Maxnumber :"<<RunningMax<<endl;
 	  cout<<sizeof(array)<<endl; //size of an array
