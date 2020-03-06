@@ -26,7 +26,9 @@ int main()
 		}
 		cout<<endl;
 	}
-	
+
+	matrix[1][1]=100;
+	matrix[1][4]=50;
 
 	return 0;
 }

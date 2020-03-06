@@ -1,3 +1,7 @@
+   // ProblemStatement:
+  //Finding (1)max number of an array (2)Size of an array.
+  //(3)size of an array element(4)Number of anr array elements. 
+
 # include<iostream>
 using namespace std;
 int main(){
@@ -16,7 +20,7 @@ int main(){
 
 	for(int i = 0; i < N; i++){
 		cin>>array[i];
-			}
+			} 
 	 int RunningMax = array[0];
 
 	 for(int i = 0; i < N; i++){
@@ -29,7 +33,7 @@ int main(){
 	  Temp = RunningMax;
 	  RunningMax = array[N-1];
 	  array[N-1] = Temp;
-	  cout<<"maxnuber :"<<RunningMax<<"array last element :"<<array[N-1]<<endl;
+	  cout<<"maxnuber :"<<RunningMax<<"  "<<"array last element :"<<array[N-1]<<endl;
 	
 	  cout<<Index<<endl;
 	  cout<<"Maxnumber :"<<RunningMax<<endl;

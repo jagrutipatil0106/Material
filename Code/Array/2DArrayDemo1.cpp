@@ -1,4 +1,4 @@
-// Accept row and column size from the user. 
+ // Accept row and column size from the user. 
 // Create a 2D array from accepted row and column size and display it.
 // Find row-wise highest element from 2D array.
 
