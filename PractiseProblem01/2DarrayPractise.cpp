@@ -4,8 +4,6 @@ int main()
 {
 	int row_n;
 	int column_n;
-	int row;
-	int column;
 
 	cout<<"Enter the array size of row and column :"<<endl;
 	cin>>row_n>>column_n;
@@ -14,19 +12,19 @@ int main()
 
 	for (int i = 0; i < row_n; ++i)
 	{
-		for (int i = 0; i < column_n; ++i)
+		for (int j = 0; j < column_n; ++j)
 		{
-			cin>>matrix[row][column]; 
+			cin>>matrix[i][j]; 
 		}
 	
 	}
 	for (int i = 0; i < row_n; ++i)
 	{
-		for (int i = 0; i < column_n; ++i)
+		for (int j = 0; j < column_n; ++j)
 		{
-			cout<<matrix[row][column]<<endl;
+			cout<<matrix[i][j]<<" ";
 		}
-	
+		cout<<endl;
 	}
 	
 
