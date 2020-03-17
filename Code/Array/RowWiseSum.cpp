@@ -1,7 +1,10 @@
+//ProblemStatement:
+// 
+
 #include<iostream>
 using namespace std;
 int main()
-{
+{ 
 	int row_n;
 	int column_n;
 	int sum;
@@ -19,6 +22,7 @@ int main()
 		{
 			cin>>matrix[i][j];
 		}
+		cout<<endl;
 	}
 	for (int i = 0; i < row_n; ++i)
 	{
@@ -27,7 +31,7 @@ int main()
 		{
 			sum = sum + matrix[i][j];
 		}
-		cout<<"Row wise sum :"<<sum<<endl;
+	cout<<"Row wise sum :"<<sum<<endl;
 		
 	}
 
