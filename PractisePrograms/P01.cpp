@@ -1,40 +1,45 @@
+//ProblemStatement:
+//print an array in descending order.
+
 #include<iostream>
 using namespace std;
 int main()
 {
-	int row_1;
-	int column_1;
-	int row_2;
-	int column_2;
-	int matrix[row_1][column_1];
-	int matrix[row_2][column_2];
+	int N;
+	int temp;
 
-	cout<<"Enter the first matrices number: "<<endl;
-	cin>>row_1;
-	cin>>column_1;
-	cout<<"Enter the 2nd matrices number :"<<endl;
-	cin>>row_2;
-	cin>>column_2;
+	cout<<"Enter the count of an array : "<<endl;
+	cin>>N;
 
-	cout<<"Enter 1st matrix elements ."<<endl;
 
-	for (int i = 0; i < row_1; ++i)
+	int arr[N];
+
+	for (int i = 0; i < N; ++i)
 	{
-		for (int j = 0; j < column_1; ++j)
+		cin>>arr[i];
+	}
+	for (int i = 0; i < N; ++i)
+	{
+		cout<<arr[i]<<" ";
+	}
+	for (int i = 0; i < N; ++i)
+	{
+		for(int j = i+1; j < N; ++j)
 		{
-			cin>>matrix[row_1][column_1]; 
+		if (arr[i] < arr[j]) //here j is i+1 means it is at 1th position
+			                 //and i is at 0 th position so they can 
+			                 //compare themselves.
+		{
+			temp = arr[i];
+			arr[i] = arr[j];
+			arr[j] =temp;
 		}
-	}
-	for (int i = 0; i < row_2; ++i)
-	{
-			for (int j = 0; j < column_2; ++j)
-			{
-				cin>>matrix[row_2][column_2];
-			}
+	    }
+	    cout<<endl;
+	    cout<<arr[i]<<" ";
 	}
 
-	 Mult = matrix[row_1][column_1] * matrix[row_2][column_2];
+	
 
-	 cout<<"Multiplication :"<<Mult<<endl;
 	return 0;
 }
