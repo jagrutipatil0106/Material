@@ -15,7 +15,7 @@ int main()
     for(int i = 0; i < N; ++i)
     {
         cout << i + 1 << ". Enter number: ";
-        cin >> array[i];
+        cin >> array[0];
         sum = sum + array[i];
     }
 
