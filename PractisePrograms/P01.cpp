@@ -5,27 +5,53 @@
 //for the 2 integers, then runs the user selected calculation and outputs the result in a user friendly formatted manner. 
 	//solution #1
 
-#include<iostream>
+#include <iostream>
 using namespace std;
 int main()
 {
-	int N ;
-	int arr[N];
-	int b = 0;
-	cout<<"jsdfsdj";
-
-	cout<<"Enter the array count :";
+	char calculater;
+	cout<<"1.addition"<<endl<<"2.substraction"<<endl<<"3.multiplication"<<endl<<"4.division"<<endl; 
+	cout<<"Enter number wich operation do you want to perform :"<<endl;
+	cin>>calculater;
+	float A,B,C;
+	//cout<<"Enter two numbers :"<<endl;
+	//cin>>A>>B;
+	int N;
+	cout<<"Enter the number :";
 	cin>>N;
 
-	for (int i = 0; i < N; ++i)
-	{
-		cin>>arr[i];
-		if (arr[i]>=10)
+	
+	int add,num;
+
+	switch(calculater){
+		
+		case '1': C = A + B;
+		cout<<"addition :"<<C;
+		cout<<"Enter the numer :";
+		for (int i = 0; i < N; ++i)
 		{
-			b++;
+			add = add + num;
 		}
-	}
-	cout<<"The number of integers greater than 10 is : "<<b;
+		cout<<"Add :"<<add;
+		break;
+
+		case '2': C = A - B;
+		cout<<"substraction :"<<C;
+		break;
+		
+		case '3': C = A * B;
+		cout<<"multiplication :"<<C;
+		break;
+		
+		case '4': C = A / B;
+		cout<<"division :"<<C;
+		break;
+
+		return 0;
+
+}
+	
+
 
 
 	return 0;
